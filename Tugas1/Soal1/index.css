@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  padding: 1;
+}
+
+.main-container {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.same-height-item {
+  flex-grow: 1;
+}
+
+.center-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+}
